@@ -27,14 +27,14 @@ public class ResourceServerSecurityConfig {
   @Order(1)
   SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
     http.securityMatcher("/ims/**")
-        .authorizeHttpRequests(
-            authorize ->
-                authorize
-                    .anyRequest()
-                    .hasAnyAuthority(
-                        "SCOPE_http://purl.1edtech.org/spec/eduapi/v1p0/scope/core.readonly",
-                        "SCOPE_http://purl.1edtech.org/spec/eduapi/v1p0/scope/core.readonly.privacy"))
-        .oauth2ResourceServer(oauth2 -> oauth2.jwt(withDefaults()));
+      .authorizeHttpRequests(authorize -> authorize
+        .requestMatchers("/ims/oneroster/rostering/v1p2/discovery/imsorv1p2_rostering_openapi3_v1p0.json").permitAll()
+        .anyRequest()
+        .hasAnyAuthority(
+          "SCOPE_https://purl.imsglobal.org/spec/or/v1p2/scope/roster-core.readonly",
+          "SCOPE_https://purl.imsglobal.org/spec/or/v1p2/scope/roster.readonly",
+          "SCOPE_https://purl.imsglobal.org/spec/or/v1p2/scope/roster-demographics.readonly"))
+      .oauth2ResourceServer(oauth2 -> oauth2.jwt(withDefaults()));
     return http.build();
   }
 }

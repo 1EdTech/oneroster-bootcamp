@@ -44,7 +44,7 @@ public class AuthorizationServerSecurityConfig {
   SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
     http.authorizeHttpRequests(authorizeRequests ->
       authorizeRequests
-        .requestMatchers("/ims/**", "/1edtech/eduapi/base/v1p0/discovery").permitAll()
+        .requestMatchers("/ims/**", "/ims/oneroster/rostering/v1p2/discovery/imsorv1p2_rostering_openapi3_v1p0.json").permitAll()
         .anyRequest().authenticated()
     )
     .formLogin(withDefaults());
