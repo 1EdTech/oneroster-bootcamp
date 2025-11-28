@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DiscoveryController {
   private static final String OPENAPI_FILE = "oas/onerosterv1p2rostersservice_openapi3_v1p0.json";
 
-  @GetMapping("/1edtech/eduapi/base/v1p0/discovery")
+  @GetMapping("/ims/oneroster/rostering/v1p2/discovery/imsorv1p2_rostering_openapi3_v1p0.json")
   public ResponseEntity<Resource> getDiscoveryDocument() {
     try {
       ClassPathResource resource = new ClassPathResource(OPENAPI_FILE);
