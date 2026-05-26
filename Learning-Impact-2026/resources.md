@@ -2,6 +2,7 @@
 
 | Resource name | URL | Description |
 | --- | --- | --- |
+| Presentation Slides | [Slide Deck](https://docs.google.com/presentation/d/1UwgQwSR9hMLGJapa1HXYQBkrYXTTnD0su_Jl2eOCJg8/edit?usp=sharing) | Slides used during the bootcamp |
 | OneRoster Portal | [https://standards.1edtech.org/oneroster/](https://standards.1edtech.org/oneroster/) | Main landing page for technical resources related to OneRoster |
 | iTorc | [https://app.1edtech.org/itorc_1p2/login](https://app.1edtech.org/itorc_1p2/login) | OneRoster reference implenentation |
 | postman | https://www.postman.com/downloads/ | API Client |
