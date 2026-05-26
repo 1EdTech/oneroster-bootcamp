@@ -41,7 +41,7 @@ By the end of the session, attendees should be able to:
 | 6 | Validation + Wrap | 15 min |
 ## 3. Section Breakdown
 
-### Section 1: Context (10 min)
+### Section 1: Context (20 min)
 
 - Evolution of OneRoster (1.0 → 1.1 → 1.2)
 - Core OneRoster concepts:
@@ -56,7 +56,7 @@ By the end of the session, attendees should be able to:
 
 ---
 
-### Section 2: Key Differences: 1.1 vs 1.2 (20 min)
+### Section 2: Key Differences: 1.1 vs 1.2 (10 min)
 
 #### Topics
 
