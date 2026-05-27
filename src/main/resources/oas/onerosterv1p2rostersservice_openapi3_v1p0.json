@@ -8191,7 +8191,7 @@
                 "description" : "OAuth 2 Client Credentials (as per the requirements in the IMS Security Framework) is to be used.",
                 "flows" : {
                     "clientCredentials" : {
-                        "tokenUrl" : "https://www.imsglobal.org",
+                        "tokenUrl" : "https://xaracil.ngrok.dev/oauth2/token",
                         "scopes" : {
                             "https://purl.imsglobal.org/spec/or/v1p2/scope/roster.readonly" : "Support for all of the read operations (excluding demographics) to enable information about collections or a single object to be obtained.",
                             "https://purl.imsglobal.org/spec/or/v1p2/scope/roster-core.readonly" : "The core set of read operations to enable information about collections or a single object to be obtained.",
