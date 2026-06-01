@@ -8,7 +8,7 @@ spring:
             registration:
               client-id: or-client
               client-secret: "{noop}secret"
-              client-name: Edu API Client
+              client-name: OneRoster Client
               client-authentication-methods:
                 - client_secret_basic
               authorization-grant-types:
